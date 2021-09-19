@@ -8,8 +8,8 @@ def main():
         elif num < 0:
             print('Unsuitable number')
             
-        elif num == 100:
-            print(10)
+        elif num == 10:
+            print(100)
            
         else:
             print(num**2)
