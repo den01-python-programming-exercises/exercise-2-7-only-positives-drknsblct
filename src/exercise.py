@@ -1,3 +1,4 @@
+import math a m
 def main():
     #write your code below this line
     while True:
@@ -7,12 +8,9 @@ def main():
             
         elif num < 0:
             print('Unsuitable number')
-            
-        elif num == 10:
-            print(10)
-           
+
         else:
-            print(num**2)
+            print(m.sqrt(num**2))
 
 if __name__ == '__main__':
     main()
