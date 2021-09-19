@@ -1,13 +1,13 @@
 def main():
     #write your code below this line
     while True:
-        number = int(input("Input a number"))
+        number = int(input("Give a number:"))
 
         if (number == 0):
             break
 
         if (number <= 0):
-            print("Invalid number! Try again.")
+            print("Unsuitable number")
             continue
 
         print(number * number)
