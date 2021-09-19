@@ -10,7 +10,7 @@ def main():
             print('Unsuitable number')
 
         else:
-            print(m.sqrt(num**2))
+            print(m.sqrt(num))
 
 if __name__ == '__main__':
     main()
