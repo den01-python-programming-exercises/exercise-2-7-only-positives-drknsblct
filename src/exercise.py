@@ -1,4 +1,3 @@
-import math as m
 def main():
     #write your code below this line
     while True:
@@ -10,7 +9,7 @@ def main():
             print('Unsuitable number')
 
         else:
-            print(m.sqrt(num))
+            print(num**2)
 
 if __name__ == '__main__':
     main()
