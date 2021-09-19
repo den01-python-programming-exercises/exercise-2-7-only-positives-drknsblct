@@ -5,7 +5,9 @@ def main():
         if num == 0:
             break
             
-        elif num < 0:
+        # it's cleaner to use an if statement instead of an elif 
+        # because if the above statement is true the loop breaks so both ifs won't be executed
+        if num < 0:
             print('Unsuitable number')
 
         else:
