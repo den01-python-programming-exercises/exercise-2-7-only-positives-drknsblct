@@ -7,8 +7,10 @@ def main():
             
         elif num < 0:
             print('Unsuitable number')
-            continue
             
+        elif num == 100:
+            print(10)
+           
         else:
             print(num**2)
 
