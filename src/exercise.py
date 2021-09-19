@@ -9,7 +9,7 @@ def main():
             print('Unsuitable number')
             
         elif num == 10:
-            print(100)
+            print(10)
            
         else:
             print(num**2)
